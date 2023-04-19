@@ -30,7 +30,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'What kind of lincese should your project have?',
-    choice: ['MIT','APACHE 2.0', 'GLP 3.0', 'BSD 3', 'None'],
+    choices: ['MIT','APACHE 2.0', 'GLP 3.0', 'BSD 3', 'None'],
   },
   {
     type: 'input',
@@ -60,9 +60,19 @@ const questions = [
 function writeToFile(fileName, data) { }
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+    inquirer
+    .prompt (questions)
+    .then (answers => {
+        fs.writeFile('dist/README.md', generateMardown(answers),err =>{ 
+            if (err)return console.log(err);
+
+        });
+        // console.log.apply(generateMarkdown(answers));
+    });
+}
 
 // Function call to initialize app
 init();
 
-return ` ![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+// return ` ![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
