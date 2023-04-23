@@ -1,32 +1,49 @@
-# deerr
+# sugar
+  ![Github license](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)
   
 ## Description
   
-gdsfdfa
+this is a sweet app
 
-![Github license](https://img.shields.io/badge/license-GLP%203.0-blue.svg)
 
 ## Table of Content
 
   - [Installation](#installation)
+
   - [Usage](#usage)
+
+    ## [License](#license)
+
+
   - [Credits](#credits)
-  - [License](#license)
+
+  - [Test](#test)
+
+  - [Questions](#questions)
 
 ## Installation
 
-df r
-
+To install necessary dependencies, run the following command:
+```
+npm 1
+```
 ## Usage
 
-dfdsfafad
+sweet
 
 ## Credits
 
-dfadfad
+third api server and collabored x,c,v
 
 ## Test
+```
+npm test
+```
+## License 
+This project is licensed under the APACHE 2.0 license.
 
-fg t
+## Questions
+
+If you have questions about the repo, open an issue or contact at laurits@gmail.com. You can find more of my worj at [lau](https://github.com/lau/).
 
 

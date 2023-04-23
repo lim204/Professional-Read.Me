@@ -5,39 +5,59 @@ function renderLicenseBadge(license) {
     return `![Github license](https://img.shields.io/badge/license-${license.replace(/ /g,'%20')}-blue.svg)`;
 
   }else {
-    return ``
+    return ``;
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) { 
+  if (license !== "None"){
+    return `## [License](#license)\n`;
+  }
+  return "";
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) { 
+  if (license !== "None")
+  {return `# License \nThis project is licensed under the ${license} license.`;
+  } 
+  return ""; 
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
   
 ## Description
   
 ${data.description}
 
-${renderLicenseBadge(data.license)}
 
 ## Table of Content
 
   - [Installation](#installation)
+
   - [Usage](#usage)
+
+  - ${renderLicenseLink(data.license)}
+
   - [Credits](#credits)
-  - [License](#license)
+
+  - [Test](#test)
+
+  - [Questions](#questions)
 
 ## Installation
 
+To install necessary dependencies, run the following command:
+\`\`\`
 ${data.installation}
-
+\`\`\`
 ## Usage
 
 ${data.usage}
@@ -47,8 +67,16 @@ ${data.usage}
 ${data.contribution}
 
 ## Test
-
+\`\`\`
 ${data.test}
+\`\`\`
+${renderLicenseSection(data.license)}
+
+## Questions
+
+If you have questions about the repo, open an issue or contact at ${data.email
+}. You can find more of my worj at [${data.github}](https://github.com/${data.github
+}/).
 
 
 `;
