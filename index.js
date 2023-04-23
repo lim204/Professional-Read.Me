@@ -64,11 +64,13 @@ function init() {
     inquirer
     .prompt (questions)
     .then (answers => {
-        fs.writeFile('dist/README.md', generateMardown(answers),err =>{ 
-            if (err)return console.log(err);
+      console.log(answers);
+      
+        fs.writeFile('dist/README.md',generateMarkdown(answers), err =>{ 
+            if (err)return console.error(err);
 
         });
-        // console.log.apply(generateMarkdown(answers));
+        // console.log(generateMarkdown(answers));
     });
 }
 
