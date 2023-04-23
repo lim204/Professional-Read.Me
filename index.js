@@ -24,7 +24,7 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'Please write a short description of your project',
+    message: 'Please write a short description of your project:',
   },
   {
     type: 'list',
@@ -77,4 +77,3 @@ function init() {
 // Function call to initialize app
 init();
 
-// return ` ![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;

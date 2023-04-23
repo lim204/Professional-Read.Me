@@ -27,6 +27,30 @@ ${data.description}
 
 ${renderLicenseBadge(data.license)}
 
+## Table of Content
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## Credits
+
+${data.contribution}
+
+## Test
+
+${data.test}
+
+
 `;
 }
 
