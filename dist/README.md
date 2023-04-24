@@ -1,9 +1,9 @@
-# sdfds
-  
+# readme.generator
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 ## Description
   
-sfdsfs
+Simple and fast readme geneartor app
 
 
 ## Table of Content
@@ -12,7 +12,8 @@ sfdsfs
 
   - [Usage](#usage)
 
-  
+  * [License](#license)
+
 
   - [Credits](#credits)
 
@@ -23,24 +24,30 @@ sfdsfs
 ## Installation
 
 To install necessary dependencies, run the following command:
+
 ```
-sfsd
+npm i
 ```
+
 ## Usage
 
-sfsd
+User can create a quickly professional readme 
+
+# License 
+This project is licensed under the MIT license.
 
 ## Credits
 
-sdfsd
+ucla bootcaml
 
 ## Test
-```
-sdfsd
-```
 
+To run test, tun  the following comand:
 
+```
+npm test
+```
 
 ## Questions
 
-If you have questions about the repo, open an issue or contact at dfdsfsd. You can find more of my worj at [dfsdf](https://github.com/dfsdf/).
+If you have questions about the repo, open an issue or contact me at laurita_im@hotmail.com. You can find more of my work at [lim204](https://github.com/lim204/).

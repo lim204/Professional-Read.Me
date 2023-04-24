@@ -70,7 +70,7 @@ function init() {
       
         fs.writeFile('dist/README.md',generateMarkdown(answers), err =>{ 
             if (err)return console.error(err);
-            console.log ('Succes');
+            console.log ('Succes, file is located in the dist folder');
         });
         
     });
