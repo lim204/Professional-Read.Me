@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) { 
   if (license !== "None"){
-    return `## [License](#license)\n`;
+    return `* [License](#license)\n`;
   }
   return "";
 }
@@ -44,7 +44,7 @@ ${data.description}
 
   - [Usage](#usage)
 
-  - ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
 
   - [Credits](#credits)
 
@@ -70,16 +70,15 @@ ${data.contribution}
 \`\`\`
 ${data.test}
 \`\`\`
+
 ${renderLicenseSection(data.license)}
 
 ## Questions
 
 If you have questions about the repo, open an issue or contact at ${data.email
 }. You can find more of my worj at [${data.github}](https://github.com/${data.github
-}/).
+}/).`;
 
-
-`;
 }
 
 module.exports = generateMarkdown;

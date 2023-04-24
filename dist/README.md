@@ -1,9 +1,9 @@
-# sugar
-  ![Github license](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)
+# sdfds
+  
   
 ## Description
   
-this is a sweet app
+sfdsfs
 
 
 ## Table of Content
@@ -12,8 +12,7 @@ this is a sweet app
 
   - [Usage](#usage)
 
-    ## [License](#license)
-
+  
 
   - [Credits](#credits)
 
@@ -25,25 +24,23 @@ this is a sweet app
 
 To install necessary dependencies, run the following command:
 ```
-npm 1
+sfsd
 ```
 ## Usage
 
-sweet
+sfsd
 
 ## Credits
 
-third api server and collabored x,c,v
+sdfsd
 
 ## Test
 ```
-npm test
+sdfsd
 ```
-## License 
-This project is licensed under the APACHE 2.0 license.
+
+
 
 ## Questions
 
-If you have questions about the repo, open an issue or contact at laurits@gmail.com. You can find more of my worj at [lau](https://github.com/lau/).
-
-
+If you have questions about the repo, open an issue or contact at dfdsfsd. You can find more of my worj at [dfsdf](https://github.com/dfsdf/).
