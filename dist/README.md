@@ -1,9 +1,9 @@
-# readme.generator
+# readme.md
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   
 ## Description
   
-Simple and fast readme geneartor app
+fast readme generator
 
 
 ## Table of Content
@@ -31,14 +31,14 @@ npm i
 
 ## Usage
 
-User can create a quickly professional readme 
+create a professional readme really fast
 
 # License 
 This project is licensed under the MIT license.
 
 ## Credits
 
-ucla bootcaml
+Ucla bootcamp
 
 ## Test
 
