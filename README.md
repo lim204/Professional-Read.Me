@@ -20,6 +20,7 @@ The purpose of this was to create a quickly professional readme base on command 
     7) When I click on the links in the Table of Contents then user is taken to the corresponding section of the README
 
 ## Screenshot:
+<iframe src="https://drive.google.com/file/d/1VtwR43_oRF7teGRcrqraFVOBle_fHEmk/preview" width="640" height="480"></iframe>
 
 
 ## Please click here: [deployed link](https://lim204.github.io/Professional-Read.Me/)
