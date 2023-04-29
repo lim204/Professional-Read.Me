@@ -19,9 +19,7 @@ The purpose of this was to create a quickly professional readme base on command 
 
     7) When I click on the links in the Table of Contents then user is taken to the corresponding section of the README
 
-## Video:
-Please see attached video to see how this program can be used:
-https://drive.google.com/file/d/1VtwR43_oRF7teGRcrqraFVOBle_fHEmk/view
+### [Click here for walkthrough video](https://drive.google.com/file/d/1VtwR43_oRF7teGRcrqraFVOBle_fHEmk/view)
 
 
 ## Please click here: [deployed link](https://lim204.github.io/Professional-Read.Me/)
